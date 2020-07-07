@@ -7,7 +7,7 @@ Generate a map with pins that identify locations you have visited.  Clicking a p
 
 
 ----
-### Modifications
+### Icon Modifications
 `folium` has various marker options.  A full list of icon options can be found on Front Awesome, [here.](https://fontawesome.com/v4.7.0/icons/)<br>
 This project uses red icons with a picture symbol in them:
 ```py
