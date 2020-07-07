@@ -33,7 +33,7 @@ def main():
     _path_for_thumnails = './thumbnails/'
 
     # name of final photo map file
-    _mapname='Beth_Jeff_Adventures_thumbnails.html'
+    _mapname='OutPutFile.html'
 
     # thumbnail dimensions and size of boarder arund image (on photomap)
     _imgsize = 500
@@ -79,7 +79,6 @@ def makeThumbnails(path_to_original_images, path_for_thumnails, imgsize, extensi
             #print(photos + ' doesnt have the correct extension, a thumbnail was not made')
             print('thumbnail not made for: ', photos)
 
-#def makePhotoMap(mapname='./Beth_Jeff_Adventures_thumbnails.html'):
 def makePhotoMap(mapname, imgsize, path_for_thumnails):
     '''
         Function to take all images from list and add them to photo map
@@ -105,14 +104,6 @@ def makePhotoMap(mapname, imgsize, path_for_thumnails):
     #####
     # add marker for each popup
     #####
-    # add marker (no popup)
-    #[folium.Marker(imgcoords[i]).add_to(m) for i in range(len(imgcoords))] 
-    # use a regular polygon as a marker, with popup
-    #[folium.RegularPolygonMarker(location=imgcoords[j], popup=popup1[j],).add_to(m) for j in range(len(imgcoords))]
-    # use standard blue marker, with popup
-    #popup1 = [folium.Popup(testNOloop[i], max_width=imgsize) for i in range(len(testNOloop))]
-    #[folium.Marker(location=imgcoords[j], popup=popup1[j],).add_to(m) for j in range(len(imgcoords))]
-    # 
     [folium.Marker(
     location=imgcoords[j],
     popup=folium.Popup(testNOloop[j], max_width=imgsize),
