@@ -4,6 +4,13 @@ Generate a map with pins that identify locations you have visited.  Clicking a p
 
 ----
 ### Photos Taken Around the World
+This project uses python to add images taken around the world to a photo map.  The final map is an HTML page that uses markers to indicate locations where images were taken.  Clicking on each marker causes the associated image to popup.
+
+A simple example is shown in [`simple_map/`](./simple_map/).  This example only plots one photo on a map.
+
+A more complex example is shown by [`main_map/](./main_map/).  This method assumes there is no EFIX data attached to each image, so image names and coordinates are stored in a `*.csv` file.
+
+The directory [`geotag_EFIX/`](./geotag_EFIX/) is used to extract location data from a photos EFIX.  This data is used to automatically plot photos, without the need for a `*.csv` file.
 
 
 ----
