@@ -12,6 +12,14 @@ A more complex example is shown by [`main_map/`](./main_map/).  This method assu
 
 The directory [`geotag_EFIX/`](./geotag_EFIX/) is used to extract location data from a photos EFIX.  This data is used to automatically plot photos, without the need for a `*.csv` file.
 
+The script [`make_HI_photo_map.py`](./HI_photo_map/make_HI_photo_map.py) in [`HI_photo_map`](./HI_photo_map/) was used to generate the html map, [`HI_photo_map.html`](./HI_photo_map/HI_photo_map.html).  The map starts over the Hawaiian Island Archipelago.
+
+![](./HI_photo_map/sample_screenshots/HImapStart.png)
+
+One an icon is clicked, a photo taken at that location popsup.
+
+![](./HI_photo/sample_screenshots/HImapSampleImageDisplayed.png)
+
 
 ----
 ### Icon Modifications
