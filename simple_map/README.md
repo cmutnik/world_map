@@ -1,0 +1,2 @@
+# Simple Photo Map
+The python script [`makeSimpleHTMLmap.py`](./makeSimpleHTMLmap.py) was used to make [`simpleMap.html`](./simpleMap.html).  This script plots one image on a world map.  When the map's polygon-marker is clicked, [the image](./photos/IMG_0195.JPG) popups.
