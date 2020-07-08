@@ -18,7 +18,7 @@ The script [`make_HI_photo_map.py`](./HI_photo_map/make_HI_photo_map.py) in [`HI
 
 One an icon is clicked, a photo taken at that location popsup.
 
-![](./HI_photo/sample_screenshots/HImapSampleImageDisplayed.png)
+![](./HI_photo_map/sample_screenshots/HImapSampleImageDisplayed.png)
 
 
 ----
