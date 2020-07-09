@@ -20,6 +20,7 @@ One an icon is clicked, a photo taken at that location popsup.
 
 ![](./HI_photo_map/sample_screenshots/HImapSampleImageDisplayed.png)
 
+[`Mutnik5`](./Mutnik5/) uses separate csv files.  Each file contains information for specific image sets.  In this case, each csv contains images taken by different people.  Each set of images is added to the map, with different pin/icon colors used to distinguish them.  [`Mutnik_photo_map.html`](./Mutnik5/Mutnik_photo_map.html) uses green pins to show images taken by one family member and red pins to show images taken by another family member.  Copies of said images have intentionally been removed from this repository, to conserve space.
 
 ----
 ### Icon Modifications
