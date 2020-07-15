@@ -31,7 +31,7 @@ In folium, the `tiles` parameter determines the type of map used.
 m = folium.Map([42.3730,-73.3677], zoom_start=3, tiles='Stamen Terrain')
 ```
 Other options for `tiles` include:
-    - `tiles='cartodbpositron'`,
+- `tiles='cartodbpositron'`,
     - `'OpenStreetMap'`
     - `'Stamen Terrain'`, `'Stamen Toner'`, `'Stamen Watercolor'`
     - `'CartoDB positron'`, `'CartoDB dark_matter'`
