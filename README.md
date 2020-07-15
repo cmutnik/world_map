@@ -53,13 +53,11 @@ popup=folium.Popup(testNOloop[j], max_width=imgsize),
 icon=folium.Icon(color='red', icon='picture')
 ).add_to(m)  for j in range(len(imgcoords))]
 ```
-If you wanted to add red markers with a different symbol in them, you can change the `icon` setting:
+If you wanted to add green markers with a different symbol in them, you can change the `icon` setting:
 ```py
-[folium.Marker(
-location=imgcoords[j],
-popup=folium.Popup(testNOloop[j], max_width=imgsize),
-icon=folium.Icon(color='red', icon='info-sign')
-).add_to(m)  for j in range(len(imgcoords))]
+...
+icon=folium.Icon(color='green', icon='info-sign')
+...
 ```
 Here is another method to add markers (with default color and symbol):
 ```py
