@@ -22,6 +22,24 @@ One an icon is clicked, a photo taken at that location popsup.
 
 [`Mutnik5`](./Mutnik5/) uses separate csv files.  Each file contains information for specific image sets.  In this case, each csv contains images taken by different people.  Each set of images is added to the map, with different pin/icon colors used to distinguish them.  [`Mutnik_photo_map.html`](./Mutnik5/Mutnik_photo_map.html) uses green pins to show images taken by one family member and red pins to show images taken by another family member.  Copies of said images have intentionally been removed from this repository, to conserve space.
 
+
+----
+----
+### Terrain Options
+In folium, the `tiles` parameter determines the type of map used.
+```py
+m = folium.Map([42.3730,-73.3677], zoom_start=3, tiles='Stamen Terrain')
+```
+Other options for `tiles` include:
+    - `tiles='cartodbpositron'`,
+    - `'OpenStreetMap'`
+    - `'Stamen Terrain'`, `'Stamen Toner'`, `'Stamen Watercolor'`
+    - `'CartoDB positron'`, `'CartoDB dark_matter'`
+    - `'Mapbox Bright'`, `'Mapbox Control Room'` (Limited zoom)
+    - `'Cloudmade'` (Must pass API key)
+    - `'Mapbox'` (Must pass API key)
+
+
 ----
 ### Icon Modifications
 `folium` has various marker options.  A full list of icon options can be found on Front Awesome, [here.](https://fontawesome.com/v4.7.0/icons/)<br>
