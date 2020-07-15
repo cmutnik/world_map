@@ -10,7 +10,9 @@ A simple example is shown in [`simple_map/`](./simple_map/).  This example only 
 
 A more complex example is shown by [`main_map/`](./main_map/).  This method assumes there is no EFIX data attached to each image, so image names and coordinates are stored in a `*.csv` file.
 
-The directory [`geotag_EFIX/`](./geotag_EFIX/) is used to extract location data from a photos EFIX.  This data is used to automatically plot photos, without the need for a `*.csv` file.
+The directory [`other_modifications/`](./other_modifications/) contains other options for modifying a photo map.
+- The subdirectory [`geotag_EFIX/`](./other_modifications/geotag_EFIX/) is used to extract location data from a photos EFIX.  This data is used to automatically plot photos, without the need for a `*.csv` file.
+- The subdirectory [`imagerotations/`](./other_modifications/imagerotations/) uses exif data to ensure thumbnails are generated with proper orientation.
 
 The script [`make_HI_photo_map.py`](./HI_photo_map/make_HI_photo_map.py) in [`HI_photo_map`](./HI_photo_map/) was used to generate the html map, [`HI_photo_map.html`](./HI_photo_map/HI_photo_map.html).  The map starts over the Hawaiian Island Archipelago.
 
