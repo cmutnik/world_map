@@ -40,7 +40,7 @@ def main():
     _path_for_thumnails = './photos/thumbnails/'
 
     # name of final photo map file
-    _mapname='Mutnik_photo_map.html'
+    _mapname='Multi_image_sources.html'
 
     # thumbnail dimensions and size of boarder arund image (on photomap)
     _imgsize = 500
